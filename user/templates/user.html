@@ -1,0 +1,36 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <title>User News Page</title>
+</head>
+<body>
+    <h1>Latest News</h1>
+    {% for article in news %}
+        <div>
+            <h2>{{ article.title }}</h2>
+            <p>{{ article.description }}</p>
+            <a href="{{ article.url }}" target="_blank">Read more</a>
+            <p><em>Published at: {{ article.publishedAt }}</em></p>
+            <hr>
+        </div>
+    {% endfor %}
+</body>
+</html>/>-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User News Page</title>
+</head>
+<body>
+    <h1>Latest News</h1>
+    {% for article in news %}
+        <div>
+            <h2>{{ article.title }}</h2>
+            <p>{{ article.description }}</p>
+            <a href="{{ article.url }}" target="_blank">Read more</a>
+            <p><em>Published at: {{ article.publishedAt }}</em></p>
+            <hr>
+        </div>
+    {% endfor %}
+</body>
+</html>

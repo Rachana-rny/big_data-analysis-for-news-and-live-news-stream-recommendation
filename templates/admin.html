@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>Admin Dashboard</title></head>
+<body>
+    <h1>User Interactions Summary</h1>
+    <ul>
+        {% for action, count in summary.items() %}
+            <li>{{ action }}: {{ count }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
