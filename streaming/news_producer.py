@@ -15,7 +15,7 @@ producer = KafkaProducer(
 
 print("✅ Kafka Producer connected!")
 
-API_KEY = "e3e8a660463ceff69055358487eb8a9a"
+API_KEY = "e3e8a660463ceff69055358487e"
 URL = f"https://gnews.io/api/v4/top-headlines?token={API_KEY}&lang=en&country=in&max=100"
 
 CSV_PATH = "/home/rachana/rtbda news/data/recommended_news.csv"
